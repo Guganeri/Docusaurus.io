@@ -1,0 +1,6 @@
+image: node
+construir site: 
+  script: 
+    - cd website 
+    - npm install
+    - npm run build
